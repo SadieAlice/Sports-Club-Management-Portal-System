@@ -1,0 +1,176 @@
+
+*{
+	
+	background: rgba(0,0,0,0.7)url(images/Balls2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: darken;
+	
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+  
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+	
+}
+.form-horizontal img{
+	background:none;
+}
+.header{
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.0rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+
+.nav a{
+	color:white;
+	font-size:1.5rem;
+	 justify-content: space-between;
+	 position:right;
+}
+
+body{
+	text:white;
+    background: none;
+
+}
+.btn {
+	border:solid #85172C;
+	background:#85172C;
+}
+
+.btn a{
+	font-size:1.5rem;
+	color:white;
+	
+}
+.auto-style10 a{
+	color:white;
+	font-size:1.5rem;
+}
+.auto-style10{
+	background:none;
+	margin-top:14px;
+	
+}
+.btn:hover{
+	border:solid #092847;
+	background:#092847;
+}
+body .btn a{
+	font-size:1.5rem;
+	color:white;
+}
+
+body .col-sm-4{
+	color:white;
+	background:none;
+}
+body .col-sm-5{
+	background:none;
+}
+body .col-sm-10{
+		background:none;
+}
+
+
+body h1{
+	color:white;
+	background:none;
+}
+body h3{
+	color:white;
+	background:none;
+}
+body h4{
+	color:white;
+	background:none;
+}
+.form-group {
+	background:none;
+}
+.box{
+  width:300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ background: #121212d8;
+  text-align: center;
+}
+.box a{
+	font-size:1.5rem;
+	background:none;
+	color:white;
+	border-bottom: .1rem solid white;
+}
+.box a:hover{
+	background:none;
+	color:#85172C;
+	border-bottom: .1rem solid #85172C;
+}
+
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  background:none;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 14px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 230px;
+  border-color: #85172C;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: #85172C;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #85172C;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #092847;
+   border: 2px solid #092847;
+}
+
+.log {
+    height: 200px;	
+	width:130px;
+	background:none;
+}

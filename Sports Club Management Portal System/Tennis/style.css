@@ -1,0 +1,100 @@
+@import url('https://fonts.goodleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap')
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', Sans-serif;
+}
+body .home{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.home .wrapper {
+	display:flex;
+} 
+
+.home .wrapper .txt{
+	color: #fff;
+	font-size:60px;
+	font-weight: 400;
+	margin-top:7px;
+}
+
+.home .wrapper .run-text{
+margin-left: 25px;
+height: 90px;
+line-height: 90px;
+overflow:hidden;
+}	
+
+.home .run-text li{
+	list-style: none;
+	color:#85172C;
+	font-size: 60px;
+	font-weight: 400;
+	position: relative;
+	top: 0;
+	animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide{
+		100%{
+			top: -360px;
+		}
+}
+
+.home .run-text li span{
+	position: relative;
+	margin: 5px 0;
+	line-height: 90px;
+	
+}
+
+.home .run-text li span::after{
+	content:"";
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: black;
+	border-left: 3px solid #85172C;
+	animation: typing 3s steps(12) infinite;
+}
+@keyframes typing{
+	40%, 60%{
+		left: calc(100% + 30px);
+	}
+	100%{
+		left: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
